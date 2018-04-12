@@ -1,0 +1,35 @@
+04-12 02:26:18.218 3942-3942/? I/art: Not late-enabling -Xcheck:jni (already on)
+04-12 02:26:18.575 3942-3942/edu.washington.wanxic.activityspy W/System: ClassLoader referenced unknown path: /data/app/edu.washington.wanxic.activityspy-1/lib/x86_64
+04-12 02:26:18.637 3942-3942/edu.washington.wanxic.activityspy W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+04-12 02:26:19.100 3942-3942/edu.washington.wanxic.activityspy I/MainActivity: onCreate event fired
+04-12 02:26:19.103 3942-3942/edu.washington.wanxic.activityspy I/MainActivity: onStart event fired
+04-12 02:26:19.104 3942-3942/edu.washington.wanxic.activityspy I/MainActivity: onResume event fired
+04-12 02:26:19.201 3942-3955/edu.washington.wanxic.activityspy D/OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+
+                                                                                 [ 04-12 02:26:19.204  3942: 3942 D/         ]
+                                                                                 HostConnection::get() New Host Connection established 0x7f71987c6560, tid 3942
+
+
+                                                                                 [ 04-12 02:26:19.409  3942: 3942 W/         ]
+                                                                                 Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1
+
+                                                                                 [ 04-12 02:26:19.410  3942: 3942 W/         ]
+                                                                                 Process pipe failed
+
+                                                                                 [ 04-12 02:26:19.484  3942: 3955 D/         ]
+                                                                                 HostConnection::get() New Host Connection established 0x7f719c0b0360, tid 3955
+
+
+                                                                                 [ 04-12 02:26:19.497  3942: 3955 W/         ]
+                                                                                 Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1
+04-12 02:26:19.513 3942-3955/edu.washington.wanxic.activityspy I/OpenGLRenderer: Initialized EGL, version 1.4
+04-12 02:26:19.544 3942-3955/edu.washington.wanxic.activityspy D/EGL_emulation: eglCreateContext: 0x7f719c0b4320: maj 2 min 0 rcv 2
+04-12 02:26:19.547 3942-3955/edu.washington.wanxic.activityspy D/EGL_emulation: eglMakeCurrent: 0x7f719c0b4320: ver 2 0 (tinfo 0x7f719893e700)
+04-12 02:26:19.621 3942-3955/edu.washington.wanxic.activityspy E/EGL_emulation: tid 3955: eglSurfaceAttrib(1210): error 0x3009 (EGL_BAD_MATCH)
+04-12 02:26:19.621 3942-3955/edu.washington.wanxic.activityspy W/OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0x7f7197fbf240, error=EGL_BAD_MATCH
+04-12 02:26:19.626 3942-3955/edu.washington.wanxic.activityspy D/EGL_emulation: eglMakeCurrent: 0x7f719c0b4320: ver 2 0 (tinfo 0x7f719893e700)
+04-12 02:26:42.744 3942-3942/edu.washington.wanxic.activityspy I/MainActivity: onPause event fired
+04-12 02:26:42.930 3942-3942/edu.washington.wanxic.activityspy I/MainActivity: onStop event fired
+04-12 02:26:42.930 3942-3942/edu.washington.wanxic.activityspy E/MainActivity: We're going down, Captain!
+04-12 02:26:43.087 3942-3955/edu.washington.wanxic.activityspy D/EGL_emulation: eglMakeCurrent: 0x7f719c0b4320: ver 2 0 (tinfo 0x7f719893e700)
+04-12 02:26:43.097 3942-3955/edu.washington.wanxic.activityspy E/Surface: getSlotFromBufferLocked: unknown buffer: 0x7f719c0b4a00
